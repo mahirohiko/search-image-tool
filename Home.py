@@ -57,7 +57,7 @@ if keyword:
                 
                 # 検索結果とAIの解析結果を表示
                 st.success(f"「{keyword}」の検索結果（{st.session_state.page_num}ページ目）")
-                # st.info(f"💡 **AI検索アシスト:** 「{keyword}」を **『 {st.session_state.ai_keyword} 』** と解釈して画像を厳選しました！")
+                st.info(f"💡 **AI検索アシスト:** 「{keyword}」を **『 {st.session_state.ai_keyword} 』** と解釈して画像を厳選しました！")
                 
                 # --- 2. ページネーション（< 1 2 3 4 5 >）のUI作成 ---
                 page_cols = st.columns(7)
