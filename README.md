@@ -1,4 +1,4 @@
-高画質写真検索ツール (Unsplash版)
+高画質写真検索ツール (Unsplash × Gemini AI版)
 
 バックエンドの起動
 ```bash
